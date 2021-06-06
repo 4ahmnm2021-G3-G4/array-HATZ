@@ -19,6 +19,7 @@ public class Arrays : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Array Werte ausgeben
         foreach (string array1 in array1)
         {
             Debug.Log("Array1:" + array1);
@@ -31,6 +32,11 @@ public class Arrays : MonoBehaviour
         {
             Debug.Log("Array3:" + array3);
         }
+
+        //Array Länge ausgeben
+        Debug.Log("Array1 Length: " + array1.Length);
+        Debug.Log("Array2 Length: " + array2.Length);
+        Debug.Log("Array3 Length: " + array3.Length);
     }
 
     // Update is called once per frame
