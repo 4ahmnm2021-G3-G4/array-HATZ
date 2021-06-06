@@ -37,6 +37,10 @@ public class Arrays : MonoBehaviour
         Debug.Log("Array1 Length: " + array1.Length);
         Debug.Log("Array2 Length: " + array2.Length);
         Debug.Log("Array3 Length: " + array3.Length);
+
+        //Array direkt modifizieren
+        array1[2] = "arrayGeändert";
+        array2[0] = 99f;
     }
 
     // Update is called once per frame
